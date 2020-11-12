@@ -1,0 +1,9 @@
+name: HidePlayerItems
+version: ${project.version}
+main: dev.jcsoftware.hideplayeritems.HidePlayerItemsPlugin
+author: Jordan Osterberg
+api-version: 1.16
+depend: [ProtocolLib]
+commands:
+  hide:
+    description: Change what equipment displays for other players
